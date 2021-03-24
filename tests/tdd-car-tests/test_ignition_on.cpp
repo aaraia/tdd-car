@@ -12,5 +12,5 @@ TEST(CarTests, IgnitionOn) {
     //  turn on the ignition
     car.ignition(true);
 
-    ASSERT_TRUE(car.IsIgnitionOn());
+    ASSERT_TRUE(car.isIgnitionOn());
 }

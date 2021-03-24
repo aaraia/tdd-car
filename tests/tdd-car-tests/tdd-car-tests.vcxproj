@@ -42,6 +42,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="test_ignition_off.cpp" />
+    <ClCompile Include="test_ignition_on.cpp" />
+    <ClCompile Include="test_indicators_off.cpp" />
+    <ClCompile Include="test_indicators_on.cpp" />
     <ClCompile Include="test_init.cpp" />
   </ItemGroup>
   <ItemGroup>
